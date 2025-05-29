@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'GTWalsheim';
+  src: url('./assets/font/subset-GTWalsheim-Regular-_1.ttf') format('truetype'),
+       url('./assets/font/subset-GTWalsheim-Medium.ttf') format('truetype'),
+       url('./assets/font/subset-GTWalsheim-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f1f3f6;
+  font-family: 'GTWalsheim', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerColumn {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+}
+.containerRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home{
+  margin-top: 5rem;
+  gap: 20px;
+  background-color: #f1f3f6;
 }

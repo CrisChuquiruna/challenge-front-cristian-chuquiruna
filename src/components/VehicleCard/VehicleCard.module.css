@@ -1,0 +1,97 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 948px;
+  height: 239px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); 
+  padding: 16px;
+  background-color: white;
+  border-radius: 15px;
+}
+.dottedLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px dotted #C8CED9;
+  padding: 0px 1rem 0px 5rem;
+  height: 271px;
+}
+
+.badge{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:flex-start;
+  width: 279px;
+  padding-left: 2rem;
+  height: 200px;
+  gap: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.name {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  & img {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.category {
+  font-size: 1.5rem;
+  color: #3179BD;
+  font-weight: bold;
+  padding: 5px 0 3px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #0077cc;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 342.5px;
+  margin-left: 16px;
+  font-weight: 300;
+}
+
+.features {
+  display: flex;
+  width: 342.5px;
+
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+
+.grupo{
+  font-size: 1rem;
+  font-style: bold;
+  color: #ABB7CD;
+}
