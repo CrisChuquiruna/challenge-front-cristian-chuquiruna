@@ -17,6 +17,15 @@ body{
   font-family: 'GTWalsheim', sans-serif;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+
 .containerColumn {
   display: flex;
   flex-direction: column;
@@ -31,7 +40,16 @@ body{
 }
 
 .home{
-  margin-top: 5rem;
-  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 5rem 5rem 0 5rem;
+  gap: 4rem;
   background-color: #f1f3f6;
+}
+
+.gap-2{
+  gap: 2rem;
 }

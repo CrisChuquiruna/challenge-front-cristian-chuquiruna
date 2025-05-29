@@ -1,0 +1,44 @@
+.filters{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 20rem;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--color-background);
+  border-radius: 13px;
+  padding: 2rem 0;
+  background-color: white;
+  color: #3179BD;
+  font-weight: bold;
+  box-shadow: 0 0 4px rgba(131, 130, 130, 0.3);
+
+  & h3,input,label,div {
+    padding: 0 2rem;
+  }
+  & .checkboxGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    & .titleSection{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 3rem;
+      background-color: #f0f4fd;
+    }
+    & input{
+      width: 15px;
+      height: 15px;
+    }
+    & label {
+      display: flex;
+      justify-self: flex-start;
+      align-items: center;
+      gap: 0.7rem;
+      font-size: 0.9rem;
+      color: #242B35;
+      font-weight: 500;
+    }
+  }
+}
